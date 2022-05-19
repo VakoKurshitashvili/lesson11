@@ -1,0 +1,48 @@
+
+
+.wrapper-forms{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.input-wrapper{
+
+    max-width: 700px;
+    width: 100%;
+    height: 40px;
+    color: red;
+    font-size: 20px;
+    
+}
+
+.button-wrapper{
+    width: 250px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+}
+
+
+.wrapper-forms ::placeholder{
+    color: blue;
+    font-size: 15px;
+}
+
+.input-wrapper:focus {
+    outline: none;
+}
+
+
+.text-area{
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+}
+
+
+.text-area:focus{
+    outline: none;
+}
