@@ -12,28 +12,55 @@
 </head>
 <body>
 
-    <form action="">
+    <form action="" method="post">
         <div class="wrapper-forms ">
             <label for="firstname">Name</label>
             <input class="input-wrapper" type="text" id="FirstName" name="fname" placeholder="Enter your firts name..." >
         </div>
-    </form>
+    
 
-    <form action="">
+    
         <div class="wrapper-forms ">
             <label for="password">password</label>
             <input class="input-wrapper" type="password" id="password" name="password" placeholder="Enter your password..." >
         </div>
-    </form>
+    
 
-    <form action="">
+    
         <div class="wrapper-forms ">
             <label for="Review">Review</label>
-            <textarea class="text-area" name="Review" id="Review" cols="30" rows="10">Your review</textarea>
+            <textarea class="text-area" name="Review" id="Review" cols="30" rows="10" placeholder="Enter your review"></textarea>
         </div>
-    </form> 
 
-    <button class="button-wrapper" type="Submit">Submit</button>
+        <div>
+            <div>
+                <input type="radio" id="Male" name="gender">
+                <label for="Male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="FeMale" name="gender">
+                <label for="FeMale">FeMale</label>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <input type="checkbox" id="Music" name="hobbymusic">
+                <label for="Music">Music</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Dance" name="hobbydance">
+                <label for="Dance">Dance</label>
+            </div>
+        </div>
+    
+
+        <button class="button-wrapper" type="Submit">Submit</button>
+    </form>
+
+
+    <a href="fb://profile/fbID">Facebook</a>
+    <a href="twitter://user?screen_name=username">Twitter</a>
     
 </body>
 </html>
